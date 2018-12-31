@@ -948,7 +948,7 @@ header nav > ul > li.menu-item-has-children:hover > .megamenu {
 
 .action-btns > ul > li.acountopen > ul {
     position: absolute;
-    left: -40px;
+    left: -110px;
     top: 100%;
     background: #fff;
     -webkit-box-shadow: 0 4px 11px rgba(0, 0, 0, .05);
@@ -986,7 +986,7 @@ header nav > ul > li.menu-item-has-children:hover > .megamenu {
 .cartslide {
     position: fixed;
     right: -400px;
-    top: 0;
+    top: 91px;
     width: 400px;
     background: #fff;
     z-index: 10;
@@ -5582,7 +5582,7 @@ header.sideheader nav > ul > li.menu-item-has-children > ul > li > a {
     width: 100%;
     box-shadow: 0 0 10px rgba(0, 0, 0, .1);
     position: relative;
-    z-index: 14;
+    z-index: 100;
     display: none;
     background-color: black;
 }
