@@ -151,8 +151,6 @@ header {
 
 .block {
     float: left;
-    padding: 70px 0;
-    position: relative;
     width: 100%;
     z-index: 1
 }
@@ -218,7 +216,11 @@ section {
 }
 
 .block.remove-bottom {
-    padding-bottom: 0
+    padding-bottom: 0;
+    padding-top:91px
+}
+ul#brands li {
+    display:inline;
 }
 
 .parallax, .fixed-bg {
@@ -1193,7 +1195,7 @@ header nav > ul > li.menu-item-has-children:hover > .megamenu {
 .shop-product {
     float: left;
     width: 100%;
-    margin-top: 35px
+    margin-top: 0px
 }
 
 .product-thumb {
@@ -2860,10 +2862,9 @@ header.sideheader .topbar > span {
 }
 
 .social > a {
-    float: left;
     font-size: 14px;
     color: #fff;
-    margin-right: 15px
+    margin-right: 15px;
 }
 
 .theme-layout.side {
@@ -3452,7 +3453,8 @@ aside .filter-open .fmenus {
 
 .pd-img > img {
     float: left;
-    width: 100%
+    width: 100%;
+    padding-top: 50px;
 }
 
 .nav.nav-tabs > li {
@@ -3528,10 +3530,10 @@ aside .filter-open .fmenus {
 }
 
 .tabdesc {
-    float: left;
     width: 100%;
     margin-top: 30px;
-    padding: 0 180px
+    padding: 0 180px;
+    text-align: center;
 }
 
 .tabdesc > p {
@@ -5453,7 +5455,7 @@ aside .filter-open .fmenus {
 }
 
 .quickp > li > a:hover {
-    background: #4f4f4f;
+    background: #f10f4c;
     color: #fff
 }
 

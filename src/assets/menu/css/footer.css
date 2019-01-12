@@ -56,7 +56,7 @@
 }
 
 .ct-footer-pre .form-group input {
-    border: 1px solid #00bff3;
+    border: 1px solid #ca3937;
     background-color: #333;
     color: #fff;
     height: 50px;
@@ -151,7 +151,7 @@
 
 .ct-footer-list > li .ct-footer-list-header {
     font-family: 'Open Sans Condensed', sans-serif;
-    color: #00bff3;
+    color: indianred;
     font-size: 30px
 }
 
@@ -275,17 +275,17 @@ address a:hover {
 }
 
 .btn.btn-motive {
-    background-color: #00bff3;
+    background-color: indianred;
     -webkit-transition: all .25s ease;
     transition: all .25s ease;
 }
 
 .btn.btn-motive:hover {
-    background-color: #00bff3;
+    background-color: firebrick;
 }
 
 .btn.btn-motive:hover:active {
-    background-color: #00bff3
+    background-color: firebrick;
 }
 
 .btn.btn-violet {
