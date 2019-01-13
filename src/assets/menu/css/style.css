@@ -1409,7 +1409,8 @@ header nav > ul > li.menu-item-has-children:hover > .megamenu {
 .product-thumb:hover > .quickp {
     opacity: 1;
     visibility: visible;
-    bottom: 15px
+    bottom: 15px;
+    padding-top: 26px;
 }
 
 .product-thumb:hover > img {
@@ -3073,7 +3074,7 @@ body.active::before {
 
 .quantity {
     float: left;
-    width: 100px;
+    width: 50px;
     border: 1px solid #212121
 }
 
@@ -3081,7 +3082,7 @@ body.active::before {
     float: left;
     width: 100%;
     position: relative;
-    padding: 0 25px
+    padding: -1px 25px
 }
 
 .quantity > span > input.manual-adjust {
@@ -3454,7 +3455,7 @@ aside .filter-open .fmenus {
 .pd-img > img {
     float: left;
     width: 100%;
-    padding-top: 50px;
+    padding-top: 0px;
 }
 
 .nav.nav-tabs > li {

@@ -4320,7 +4320,7 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
 }
 
 .nav > li > a > img {
-    max-width: none
+    max-width: 75%
 }
 
 .nav-tabs {
