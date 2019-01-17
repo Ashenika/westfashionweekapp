@@ -301,6 +301,35 @@
         z-index: 1
     }
 }
+/* IPAD LANDSCAPE */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+    .respheader .logo {
+        margin-left: 350px;
+    }
+}
+
+/* IPAD PORTRAIT */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+    .respheader .logo {
+        margin-left: 250px;
+    }
+}
+
+/* IPHONE LANDSCAPE */
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation : landscape) {
+    .respheader .logo {
+        margin-left: 180px;
+    }
+}
 
 @media (max-width: 767px) {
     .container {

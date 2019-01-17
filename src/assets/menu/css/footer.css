@@ -67,14 +67,14 @@
 
 @media (min-width:480px) {
     .ct-footer-pre .form-group input {
-        width: 331px
+        width: 331px;
     }
 }
 
 .ct-footer-pre .form-group button {
     height: 50px;
     position: relative;
-    width: 80px;
+    width: 150px;
     padding: 0
 }
 
@@ -504,3 +504,4 @@ address a:hover {
         font-size: 28px
     }
 }
+
