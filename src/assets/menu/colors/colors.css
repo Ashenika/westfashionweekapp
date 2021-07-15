@@ -9,3 +9,7 @@
 .border-color, .cartlistsec > a:hover, .mainfeatured.style2 .mainf-info > a:hover, .cartinfos > a:hover, .pactions > a:hover, .cartinfo > a:hover {
     border-color: #d35050
 }
+
+.border-color, .wishlistsec > a:hover, .mainfeatured.style2 .mainf-info > a:hover, .wishinfos > a:hover, .pactions > a:hover, .wishinfo > a:hover {
+    border-color: #d35050
+}

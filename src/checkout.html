@@ -223,7 +223,7 @@
                 <h4 class="modal-title">Checkout Successfully</h4>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal" onclick="location.href = 'home.html';" id="exit">Close</button>
             </div>
         </div>
 
@@ -491,7 +491,6 @@
                 //This will be printed when the transaction is successful. To charge, server side scripting is required.
                 if(token.id){
                     $("#thankyouPayment").html("Thank you, your payment was successful!");
-
                     //You can also use the following code to re-submit the form content to another file for further processing.
                     //Don't forget to add action to your form
                     //$form.get(0).submit();

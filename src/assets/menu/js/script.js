@@ -126,4 +126,21 @@ $(window).on('load', function () {
     $('.page-loading').fadeOut();
     var full_height = $(window).height();
     $(".full-bg").css({"height": full_height});
+
+
+    //Wishlist
+    $('.wishinfo > i').on('click', function () {
+        $(this).parent().parent().fadeOut('fast');
+    });
+    $('.wishopen').on('click', function () {
+        $('.wishslide').addClass('slidein');
+        $('body').addClass('active');
+    });
+    $('.closewishslide').on('click', function () {
+        $('.wishslide').removeClass('slidein');
+        $('body').removeClass('active');
+    });
+    $('.delwish').on('click', function () {
+        $(this).parent().parent().fadeOut();
+    });
 });

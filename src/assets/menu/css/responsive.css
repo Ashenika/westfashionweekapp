@@ -265,6 +265,10 @@
         overflow-y: scroll
     }
 
+    .wishslide {
+        overflow-y: scroll
+    }
+
     .pinfo {
         padding-left: 40px;
         padding-right: 40px
@@ -688,6 +692,10 @@ and (orientation : landscape) {
     }
 
     .cartslide {
+        width: 350px
+    }
+
+    .wishslide {
         width: 350px
     }
 }

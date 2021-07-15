@@ -985,6 +985,179 @@ header nav > ul > li.menu-item-has-children:hover > .megamenu {
     visibility: visible
 }
 
+.wishslide {
+    position: fixed;
+    right: -400px;
+    top: 91px;
+    width: 400px;
+    background: #fff;
+    z-index: 10;
+    -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, .1);
+    -moz-box-shadow: 0 0 30px rgba(0, 0, 0, .1);
+    -ms-box-shadow: 0 0 30px rgba(0, 0, 0, .1);
+    -o-box-shadow: 0 0 30px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .1);
+    height: 100%;
+    padding-bottom: 200px
+}
+
+.wishslidesec {
+    float: left;
+    width: 100%;
+    padding: 0 50px;
+    padding-top: 0;
+    padding-top: 60px
+}
+
+.wishslidesec > h3 {
+    float: left;
+    width: 100%;
+    font-family: Roboto;
+    font-size: 18px;
+    color: #111;
+    font-weight: 500;
+    margin: 0
+}
+
+.wishslidesec > ul {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0
+}
+
+.wishslidesec > ul > li {
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #e8ecec;
+    margin: 0;
+    padding: 30px 0
+}
+
+.wishlist {
+    float: left;
+    width: 100%;
+    display: table;
+    position: relative
+}
+
+.wishlistthumb {
+    display: table-cell;
+    vertical-align: top;
+    width: 100px
+}
+
+.wishlistthumb > a {
+    float: left;
+    width: 100%
+}
+
+.wishlistthumb > a > img {
+    float: left;
+    width: 100%
+}
+
+.wishlistinfo {
+    display: table-cell;
+    vertical-align: top;
+    padding-left: 20px
+}
+
+.wishlistinfo > h3 {
+    float: left;
+    width: 100%;
+    font-family: Roboto;
+    font-size: 14px;
+    color: #111;
+    margin: 0
+}
+
+.wishlistinfo > span {
+    float: left;
+    width: 100%;
+    font-size: 12px;
+    font-family: Roboto;
+    color: #858585;
+    margin-top: 4px
+}
+
+.delwish {
+    position: absolute;
+    right: 0;
+    top: 3px;
+    font-size: 8px;
+    cursor: pointer
+}
+
+.wishinfos {
+    float: left;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 50px;
+    z-index: 1;
+    background: #fff;
+    padding: 0 50px
+}
+
+.wishinfos > span {
+    float: left;
+    width: 50%;
+    padding-top: 14px;
+    border-top: 1px solid #858585;
+    font-family: Rubik;
+    font-size: 18px;
+    color: #858585
+}
+
+.wishinfos > strong {
+    float: right;
+    width: 50%;
+    font-weight: 400;
+    padding-top: 14px;
+    border-top: 1px solid #858585;
+    text-align: right;
+    font-size: 18px;
+    color: #111
+}
+
+.wishinfos > a {
+    float: left;
+    font-size: 14px;
+    border: 1px solid #858585;
+    color: #111;
+    padding: 9px 24px;
+    margin-top: 50px
+}
+
+.wishinfos > a:last-child {
+    float: right
+}
+
+.closewishslide {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 20px;
+    height: 20px;
+    color: #ef0f0f;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    font-size: 10px;
+    cursor: pointer
+}
+
+.wishslide.slidein {
+    right: 0
+}
+
 .cartslide {
     position: fixed;
     right: -400px;
@@ -5711,7 +5884,11 @@ header nav > ul > li.menu-item-has-children > ul > li:hover > a {
     z-index: 15 !important
 }
 
-header nav > ul > li.menu-item-has-children > ul, header nav > ul > li.menu-item-has-children > ul ul, .megamenu, .action-btns > ul > li.acountopen > ul, .cartslide, .shop-product, .shop-product *, .filterbtn, .filterbtn *, #hamburger-two, #hamburger-two *, #hamburger-two *:before, #hamburger-two *:after, .insta-carousel li *, .minimal-product, .minimal-product *, body::before, .team, .team *, .subsform *, .link-widget *, .contact-widget *, .blogpost *, .pagination *, .widget *, .comment *, button, .cartlistsec > a, .cart-totals > a, .placeorder a, .contactform form input[type=submit], .fmenus *, .productsimple *, .productsimple, .px1 a, .px2 a, .px3 a, .px1 a, .bannerp a, .bannerpinfo > a, .masonryproduct, .masonryproduct *, .viewallbtn a, .cartinfos > a, .pactions > a, .sideheader, .open-minimal-menu, .respheader nav, header a {
+.wishslide {
+    z-index: 15 !important
+}
+
+header nav > ul > li.menu-item-has-children > ul, header nav > ul > li.menu-item-has-children > ul ul, .megamenu, .action-btns > ul > li.acountopen > ul, .cartslide, .wishslide, .shop-product, .shop-product *, .filterbtn, .filterbtn *, #hamburger-two, #hamburger-two *, #hamburger-two *:before, #hamburger-two *:after, .insta-carousel li *, .minimal-product, .minimal-product *, body::before, .team, .team *, .subsform *, .link-widget *, .contact-widget *, .blogpost *, .pagination *, .widget *, .comment *, button, .cartlistsec > a, .cart-totals > a, .placeorder a, .contactform form input[type=submit], .fmenus *, .productsimple *, .productsimple, .px1 a, .px2 a, .px3 a, .px1 a, .bannerp a, .bannerpinfo > a, .masonryproduct, .masonryproduct *, .viewallbtn a, .cartinfos > a, .pactions > a, .sideheader, .open-minimal-menu, .respheader nav, header a {
     -webkit-transition: all .3s ease 0s;
     -moz-transition: all .3s ease 0s;
     -ms-transition: all .3s ease 0s;
